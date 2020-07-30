@@ -1,14 +1,28 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+"author": "Alan Zimmerman",
+    "mapsJSONVersion": "v1.1.0",
+    "comments": "An example JSON file that can be imported into High Fidelity. The `mapsJSONVersion` key/value pair should be kept up-to-date with what is in `MapController.js`. Contact the High Fidelity team for assistance.",
+    "maps": [
+        {
+            "mapName": "Brookline",
+            "mapImageSrc": "https://tesselair.com/sites/default/files/inline-images/Map-Brookline-v1.jpg",
+            "mapLandmarks": [
+                {
+                   "name": ".",
+                   "positionSU": {
+                       "x": 20.28,
+                       "y": 13.15,
+                       "z": 0
+                   },
+                   "widthSU": 5,
+                   "heightSU": 3,
+                   "rotationDegrees": -22,
+                   "hexColor": "#4f2087",
+                   "textHexColor": "#FFFFFF",
+                   "href": "https://www.youtube.com/watch?v=jR9NR5RGprk",
+                   "imageHref": "https://tesselair.com/sites/default/files/inline-images/Video_Img.jpg"
+                }
+            ]
+        }
+    ]
 }
